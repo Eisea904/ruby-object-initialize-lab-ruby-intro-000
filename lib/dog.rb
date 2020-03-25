@@ -18,7 +18,7 @@ class Dog
 
   def breed
     if breed == " " || breed == "" || breed == nil
-      return "Mutt"
+      @breed == "Mutt"
     else
       @breed
     end
