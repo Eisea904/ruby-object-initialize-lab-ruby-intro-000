@@ -13,6 +13,8 @@ class Dog
       return "Mutt"
     else
       @breed
+    end
+  end
 
   def name=(name)
     @name = name
