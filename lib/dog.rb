@@ -12,7 +12,7 @@ class Dog
     if breed = " " || breed = "" || breed = nil
       return "Mutt"
     else
-      @breed 
+      @breed
 
   def name=(name)
     @name = name
