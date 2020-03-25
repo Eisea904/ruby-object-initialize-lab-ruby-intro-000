@@ -9,7 +9,7 @@ class Dog
   end
 
   def breed
-    if breed = " " || breed = "" || breed = nil
+    if breed == " " || breed == "" || breed == nil
       return "Mutt"
     else
       @breed
