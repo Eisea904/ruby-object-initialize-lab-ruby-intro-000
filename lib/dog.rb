@@ -12,15 +12,11 @@ class Dog
     @name
   end
 
-  def breed=(breed)
-    @breed = breed
+  def breed=(breed = "Mutt")
+    @breed = "#{breed}"
   end
 
   def breed
-    if breed == " " || breed == "" || breed == nil
-      @breed == "Mutt"
-    else
-      @breed
-    end
+    @breed
   end
 end
